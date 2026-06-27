@@ -1,0 +1,21 @@
+{
+    "name": "boxphp/database",
+    "description": "BoxPHP Database - PDO Connection, QueryBuilder, Pool",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BoxPHP\\Database\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "boxphp/core": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        }
+    ]
+}
